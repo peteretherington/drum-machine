@@ -1,0 +1,23 @@
+.drum-pad {
+    --border-b: 4px solid #444;
+    width: calc(100% / 3 - 20px);
+    background-color: grey;
+    border-bottom: var(--border-b);
+    border-left: var(--border-b);
+    border-left-width: 2px;
+    border-radius: 2px;
+    margin: 10px;
+    padding: 20px 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.drum-pad:active {
+    background-color: #555;
+    border-width: 1px;
+    transform: translate(-0.25%, 2%);
+}
+
+.drum-pad span {
+    user-select: none;
+}

@@ -1,0 +1,19 @@
+.drum-machine {
+    max-width: 600px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.drum-pads {
+    width: 100%;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #333;
+    color: white;
+}
